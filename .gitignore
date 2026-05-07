@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ROS
+devel/
+build/
+logs/
+
+# Models (too large for git)
+models/*.pt
+models/*.engine
+models/*.onnx
+models/*.weights
+
+# Dataset
+dataset/images/
+dataset/labels/
+dataset/*.tar.gz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
